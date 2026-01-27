@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="veiculoLuxo" />
+        <module name="interfaces" />
+        <module name="veiculoCompact" />
+        <module name="relatorioDadosLocacao" />
+        <module name="veiculoEconomico" />
+        <module name="veiculoEletrico" />
+        <module name="executable" />
+        <module name="relatorioCombustivel" />
+        <module name="veiculoVan" />
+        <module name="veiculoSUV" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="myplugin" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

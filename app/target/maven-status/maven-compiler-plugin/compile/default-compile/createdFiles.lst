@@ -1,0 +1,15 @@
+br\edu\ifba\inf008\app\data\TipoVeiculoDataAccess.class
+br\edu\ifba\inf008\app\data\VeiculoDataAccess.class
+br\edu\ifba\inf008\app\shell\PluginController.class
+br\edu\ifba\inf008\app\shell\BancoD.class
+br\edu\ifba\inf008\app\shell\UIController.class
+br\edu\ifba\inf008\app\shell\Core.class
+br\edu\ifba\inf008\app\data\ClienteDataAccess.class
+br\edu\ifba\inf008\app\model\Veiculo.class
+br\edu\ifba\inf008\app\shell\AuthenticationController.class
+module-info.class
+br\edu\ifba\inf008\app\data\RentalDataAccess.class
+br\edu\ifba\inf008\app\App.class
+br\edu\ifba\inf008\app\model\Cliente.class
+br\edu\ifba\inf008\app\shell\IOController.class
+br\edu\ifba\inf008\app\model\TipoVeiculo.class
