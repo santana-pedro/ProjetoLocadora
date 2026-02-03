@@ -1,6 +1,6 @@
 package br.edu.ifba.inf008.app.data;
 
-import br.edu.ifba.inf008.app.interfaces.IDataAccess; // Importe a interface
+import br.edu.ifba.inf008.app.interfaces.IDataAccess;
 import br.edu.ifba.inf008.app.model.Cliente;
 import br.edu.ifba.inf008.app.shell.BancoD;
 
@@ -10,10 +10,9 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-// Implementa a interface especificando que o T é <Cliente>
 public class ClienteDataAccess implements IDataAccess<Cliente> {
 
-    @Override // Agora o Java garante que você escreveu certo
+    @Override
     public List<Cliente> listarTodos() {
         List<Cliente> lista = new ArrayList<>();
         String sql = "SELECT * FROM customers";
@@ -24,7 +23,6 @@ public class ClienteDataAccess implements IDataAccess<Cliente> {
             ResultSet rs = stmt.executeQuery();
 
             while (rs.next()) {
-                // ... (seu código de criar Cliente igualzinho antes) ...
                 Cliente c = new Cliente(
                         rs.getInt("customer_id"),
                         rs.getString("customer_type"),

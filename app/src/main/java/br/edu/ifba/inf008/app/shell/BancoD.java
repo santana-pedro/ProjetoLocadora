@@ -9,7 +9,7 @@ public class BancoD {
     private static BancoD instance;
     private Connection connection;
 
-    private static final String URL = "jdbc:mariadb://localhost:3306/inf008";
+    private static final String URL = "jdbc:mariadb://localhost:3306/car_rental_system";
     private static final String USER = "root";
     private static final String PASSWORD = "root";
 

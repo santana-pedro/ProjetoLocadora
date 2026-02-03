@@ -107,7 +107,7 @@ public class RelatorioDadosPlugin implements IReportPlugin {
                         "LIMIT 100";
 
         try {
-            Connection conn = DriverManager.getConnection("jdbc:mariadb://localhost:3307/car_rental_system?useSSL=false&allowPublicKeyRetrieval=true","root", "root");
+            Connection conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/car_rental_system?useSSL=false&allowPublicKeyRetrieval=true","root", "root");
             PreparedStatement stmt = conn.prepareStatement(sql);
             ResultSet rs = stmt.executeQuery();
 

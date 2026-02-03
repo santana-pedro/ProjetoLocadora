@@ -13,11 +13,9 @@ public class VeiculoEconomicoPlugin implements IVehiclePlugin {
 
     @Override
     public BigDecimal calcularValorTotal(int dias, BigDecimal valorDiaria, Map<String, BigDecimal> taxas) {
-        System.out.println("--- PLUGIN ECONÔMICO ACIONADO ---");
-        System.out.println("Dias recebidos: " + dias);
-        System.out.println("Valor Diária recebido: " + valorDiaria);
-        System.out.println("Taxas recebidas: " + taxas);
+        //calculo padrao
         BigDecimal total = valorDiaria.multiply(BigDecimal.valueOf(dias));
+        //taxas extras
         if (taxas != null) {
             for (BigDecimal valorTaxa : taxas.values()) {
                 if (valorTaxa != null) {
@@ -25,8 +23,6 @@ public class VeiculoEconomicoPlugin implements IVehiclePlugin {
                 }
             }
         }
-        System.out.println("Total calculado pelo plugin: " + total);
-        System.out.println("----------------------------------");
         return total;
     }
 

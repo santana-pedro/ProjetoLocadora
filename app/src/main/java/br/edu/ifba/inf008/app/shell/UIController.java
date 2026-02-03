@@ -48,7 +48,7 @@ public class UIController extends Application implements IUIController {
         var pluginController = br.edu.ifba.inf008.app.shell.Core.getInstance().getPluginController();
         pluginController.init();
 
-        javafx.scene.layout.HBox menuTop = new javafx.scene.layout.HBox(15); // Espaçamento de 15px
+        javafx.scene.layout.HBox menuTop = new javafx.scene.layout.HBox(15);
         menuTop.setStyle("-fx-padding: 15; -fx-background-color: #f4f4f4; -fx-border-color: #cccccc; -fx-border-width: 0 0 1 0; -fx-alignment: center-left;");
 
         javafx.scene.control.Button btnLocacao = new javafx.scene.control.Button("Realizar Locação");
