@@ -54,3 +54,5 @@ mvn exec:java -pl app
     br/edu/ifba/inf008/app/plugins/<YourPluginNameInCamelCase>.java
     
 5. Run "mvn install" and "mvn exec:java -pl app"
+## Link Youtube Video
+https://youtu.be/ejEH3gYfOhQ
